@@ -1,0 +1,10 @@
+fastapi==0.141.1
+uvicorn==0.52.1
+requests==2.34.2
+python-dotenv==1.2.2
+pydantic==2.13.4
+pydantic_settings==2.15.0
+sqlmodel==0.0.39
+ddgs==9.14.4
+chatterbox-tts==0.1.7
+setuptools==80.10.2

@@ -1,0 +1,5 @@
+{
+  "watch": ["src"],
+  "ignore": ["auth_info/**"],
+  "ext": "js,json"
+}

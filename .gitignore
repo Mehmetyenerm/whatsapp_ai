@@ -1,0 +1,56 @@
+# Ortam Değişkenleri (gizli bilgiler içerir)
+.env
+.env.local
+.env.*.local
+
+# Python Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+backend.log
+frontend.log
+
+# Node.js (elbette node_modules var zaten)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# WhatsApp Kimlik Doğrulama (HASSAS!)
+auth_info/
+creds.json
+
+# Medya ve Veri Dosyaları
+media/
+data/
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Geliştirme
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/

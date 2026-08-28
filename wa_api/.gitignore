@@ -1,0 +1,49 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Directories
+node_modules/
+fastApi/.venv/
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Project-specific
+auth_info/
+media/
+fastApi/data/
+fastApi/audio/*.wav
+fastApi/audio/*.mp3
+fastApi/audio/*.ogg
+fastApi/.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.sublime-*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
